@@ -3,7 +3,7 @@
 //To send a signal : kill -(34+signal) $(pidof dwmblocks)
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"", "sb-mailbox",								60,		6},
+	{"", "sb-mailbox",								5,		6},
 	{"", "sb-music",								0,		5},
 	{"", "sb-volume",								0,		4},
 	{"", "sb-internet",								5,		3},
